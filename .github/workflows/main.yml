@@ -23,3 +23,8 @@
             
           - name: 'testing printing'
             run: echo Ali  
+          
+          - uses: actions/checkout@v3 
+          
+          - name: 'printing folder content'
+            run: ls
