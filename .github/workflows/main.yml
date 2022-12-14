@@ -28,3 +28,7 @@
           
           - name: 'printing folder content'
             run: ls
+            
+            
+          - name: 'login to dockerhub'
+            run: docker login --usename hamedeng23 --password dckr_pat_uPi6Eihg9rHx2qm90-mUzaXZrJU  
